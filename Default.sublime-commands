@@ -1,0 +1,27 @@
+[
+    {
+        "caption": "Git: Stash Current File",
+        "command": "git",
+        "args": {"argv": ["stash", "push", "$path"]}
+    },
+    {
+        "caption": "Git: Stash All Changes",
+        "command": "git", 
+        "args": {"argv": ["stash", "push", "-m", "Quick stash"]}
+    },
+    {
+        "caption": "Git: Stash Including Untracked",
+        "command": "git",
+        "args": {"argv": ["stash", "push", "--include-untracked", "-m", "Stash with untracked"]}
+    },
+    {
+        "caption": "Git: Stash Hunks (Interactive)",
+        "command": "git",
+        "args": {"argv": ["stash", "push", "--patch"]}
+    },
+    {
+        "caption": "Git: Stash Staged Changes Only",
+        "command": "git",
+        "args": {"argv": ["stash", "push", "--staged", "-m", "Stash staged changes"]}
+    }
+] 

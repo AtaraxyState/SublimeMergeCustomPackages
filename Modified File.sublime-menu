@@ -1,0 +1,12 @@
+[
+    {
+        "caption": "Stash File",
+        "command": "git",
+        "args": {"argv": ["stash", "push", "-m", "Stash: $path", "$path"]}
+    },
+    {
+        "caption": "Stash File (Simple)",
+        "command": "git", 
+        "args": {"argv": ["stash", "push", "$path"]}
+    }
+] 
